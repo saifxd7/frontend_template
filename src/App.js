@@ -80,7 +80,7 @@ const App = () => {
         <ProductForm
           addProduct={addProduct}
           data={initialForm}
-          closeForm={closeForm}
+          close={closeForm}
         />
       )}
     </div>
